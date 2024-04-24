@@ -1,5 +1,5 @@
 # PCC - Medusa Commerce Server
-Members: Jacob Hoffman, Hannah Harhai, Gabriel Lulu
+### Members: Jacob Hoffman, Hannah Harhai, Gabriel Lulu
 
 ## Deployment Diagram
 <img width="981" alt="cs2060-final-project-diagram" src="https://github.com/Pitt-Cloud-Computing/.github/assets/57918989/45f9469e-5a8b-4c5e-b4ff-9c04e7f9c947">
