@@ -24,3 +24,8 @@
   - Set up a workflow to build and push the Docker image for Medusa Storefront 1 into Artifact Registry.
   - Set up a workflow to build and push the Docker image for Medusa Server into Artifact Registry.
 
+## Video Presentation
+- [Youtube Link](https://youtu.be/ptAaDbbii5E)
+
+## References
+- [Repo Link](https://github.com/Pitt-Cloud-Computing/pcc-docs)
