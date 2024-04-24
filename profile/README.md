@@ -23,6 +23,10 @@
 - Used GitHub Actions Workflows
   - Set up a workflow to build and push the Docker image for Medusa Storefront 1 into Artifact Registry.
   - Set up a workflow to build and push the Docker image for Medusa Server into Artifact Registry.
+- How it works
+  - The Github Action Workflow for Medusa Server (backend) authenticates with Google Artifact Registry and then uses the specified Dockerfile to build its image. Once the image is built, this image is then pushed and tagged to our repository in the Artifact Registry.
+  - Medusa Storefront (frontend) follows this same exact workflow, only it creates its own separate Docker image.
+  - Thus with each push to the backend and frontend repository a new Docker image for each is created and pushed to Artifact Registry.
 
 ## Video Presentation
 - [Youtube Link](https://youtu.be/ptAaDbbii5E)
